@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #667eea, #764ba2, #6B8DD6);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .converter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #7fbfff;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .converter {
+      flex-direction: row;
+    }
+    .input-group {
+      margin-right: 20px;
+    }
+  }
+  footer > container{
+    background-color: blanchedalmond;
+}
+  .heart{
+    height: 10%;
+    color: red;
+  }
+  .footer-para{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+  
+.display-4{
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+/* //Test code 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #667eea, #764ba2, #6B8DD6);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover;
+  } */
+  
+  /* .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .converter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #7fbfff;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .converter {
+      flex-direction: row;
+    }
+    .input-group {
+      margin-right: 20px;
+    }
+  }
+  footer > container{
+    background-color: blanchedalmond;
+}
+  .heart{
+    height: 10%;
+    color: red;
+  }
+  .footer-para{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+  
+.display-4{
+    color: white;
+    font-weight: bolder;
+} */

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script async defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-4 text-center">Temperature Converter</h1>
+      <div class="converter">
+        <div class="input-group">
+          <label for="celsius">Celsius</label>
+          <input type="number" id="celsius" placeholder="Enter temperature in Celsius" oninput="convert('celsius')">
+        </div>
+        <div class="input-group">
+          <label for="fahrenheit">Fahrenheit</label>
+          <input type="number" id="fahrenheit" placeholder="Enter temperature in Fahrenheit" oninput="convert('fahrenheit')">
+        </div>
+      </div>
+    </div>
+    <footer>
+		<div class="container fixed-bottom">
+		  <div class="copyright text-center">
+			<p class="footer-para">Made with <span class="heart">&hearts;</span> by Gagan Arora</p>
+		  </div>
+		</div>
+	</footer>
+  </body>
+</html>
